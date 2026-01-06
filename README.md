@@ -96,6 +96,9 @@ The CLI version remains the authoritative implementation.
 
 ---
 
+**- The core implementation runs as a CLI-based conversational loop; the Streamlit UI is optional and not required for compliance.**
+
+
 ## Constraints Compliance
 
 This solution strictly follows the assignment constraints:
