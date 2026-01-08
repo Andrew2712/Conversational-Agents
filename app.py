@@ -25,7 +25,7 @@ with st.expander("📜 Game Rules"):
 state = st.session_state.state
 
 # Game Over
-if state.round == 3:
+if state.round > 2:
     st.markdown("## 🏁 GAME OVER")
 
     st.markdown(
